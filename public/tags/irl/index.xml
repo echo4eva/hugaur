@@ -1,32 +1,32 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Irl on My New Hugo Site</title>
-    <link>http://localhost:1313/tags/irl/</link>
-    <description>Recent content in Irl on My New Hugo Site</description>
+    <title>Irl on echo4eva</title>
+    <link>http://localhost:1313/hugaur/tags/irl/</link>
+    <description>Recent content in Irl on echo4eva</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 05 Mar 2024 12:00:56 -0700</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/irl/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/hugaur/tags/irl/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>the hiatus</title>
-      <link>http://localhost:1313/the-hiatus/</link>
+      <link>http://localhost:1313/hugaur/the-hiatus/</link>
       <pubDate>Tue, 05 Mar 2024 12:00:56 -0700</pubDate>
-      <guid>http://localhost:1313/the-hiatus/</guid>
+      <guid>http://localhost:1313/hugaur/the-hiatus/</guid>
       <description>the hiatus What happened? It&amp;rsquo;s been about 2 months since my last blog and a lot has happened. To summarize, I’ve been learning a lot. I learned about ML in tabular data by utilizing random forests and neural nets, feature engineering, differential calculus, mathematical and conceptual details of neural and convnets, interviewing skills, and currently the YOLO (You Only Look Once) algorithm.&#xA;Two months may seem like a short timeline but it felt so long.</description>
     </item>
     <item>
       <title>deep learning, first epoch</title>
-      <link>http://localhost:1313/first-epoch/</link>
+      <link>http://localhost:1313/hugaur/first-epoch/</link>
       <pubDate>Wed, 13 Dec 2023 12:00:56 -0700</pubDate>
-      <guid>http://localhost:1313/first-epoch/</guid>
+      <guid>http://localhost:1313/hugaur/first-epoch/</guid>
       <description>My First Epoch whoami Greetings, my name is Jericho Imperial, currently a 4th year CS undergrad who is addicted to the drug called “self-studying deep learning!” I’m technically a 4.5th year undergrad, because I am one class short even though my school let walk on stage and didn’t notify me of this issue beforehand, but anyways, welcome to my first “academic” blog about deep learning! Here’s a lot about me.</description>
     </item>
     <item>
       <title>hello world!</title>
-      <link>http://localhost:1313/hello_world/</link>
+      <link>http://localhost:1313/hugaur/hello_world/</link>
       <pubDate>Thu, 07 Dec 2023 12:00:56 -0700</pubDate>
-      <guid>http://localhost:1313/hello_world/</guid>
+      <guid>http://localhost:1313/hugaur/hello_world/</guid>
       <description>welcome! hey this is my first blog ever! i initially made this website to write about whatever i learned in fastai since they recommended it, but i’ll probably write about whatever else i’m learning, my projects, thoughts in tech, and maybe thoughts in general. this website is my 3rd website ever made and 1st project made with svelte. so far i love how svelte is with their routing, it just seems super intuitive and easy.</description>
     </item>
   </channel>

@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Ml on My New Hugo Site</title>
-    <link>http://localhost:1313/tags/ml/</link>
-    <description>Recent content in Ml on My New Hugo Site</description>
+    <title>Ml on echo4eva</title>
+    <link>http://localhost:1313/hugaur/tags/ml/</link>
+    <description>Recent content in Ml on echo4eva</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 26 Dec 2023 12:00:56 -0700</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/ml/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/hugaur/tags/ml/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>nlp and lms</title>
-      <link>http://localhost:1313/nlp-and-lms/</link>
+      <link>http://localhost:1313/hugaur/nlp-and-lms/</link>
       <pubDate>Tue, 26 Dec 2023 12:00:56 -0700</pubDate>
-      <guid>http://localhost:1313/nlp-and-lms/</guid>
+      <guid>http://localhost:1313/hugaur/nlp-and-lms/</guid>
       <description>talking metal box How could a computer even talk to us? How is it possible it can answer any question you give it (with questionable correctness)? Here’s a better question, how could a computer understand language, especially english? It’s very simple, natural language processing, thanks for reading. Seriously, it’s really simple.&#xA;what is natural language processing? Natural language processing, NLP for short, is how a computer can understand language. It’s a process that has a number of steps and components in order for it to work.</description>
     </item>
   </channel>
