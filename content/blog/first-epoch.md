@@ -101,13 +101,13 @@ For my own practice, there are currently two ways to calculate loss that I know 
 
 Gradients are what helps us with determining how to update the weights for our parameters. They’re calculated by taking the derivative of the function and solving for each parameter, high school math! It measures how the loss changes corresponding to the change of our parameter’s weight. We want low loss, so it’s best to do whatever the gradient says.
 
-![p11](/b1_11.png "a")
+![p11](/hugaur/b1_11.png "a")
 
 ### cycle
 
 A step isn’t that important for this blog, it’s just the process of updating weights officially and doing some other things too. Each cycle/epoch the, the prediction will fit better and better in the graph. By the way, epoch is just a fancy way of saying “cycle.”
 
-![p12](/b1_12.png "a")
+![p12](/hugaur/b1_12.png "a")
 
 So now we’re officially done with going through everything, what they are, and what they do technically. The cycle repeats itself until the model and results are satisfactory. There are other things I’ve left out, such as ReLUs, neural nets, and sigmoids, but I think it’s okay to for the sake of this blog are are just jargon.
 
