@@ -1,0 +1,18 @@
+<nav>
+<pre>
+<a href = "/">
+            __          
+.-----.----|  |--.-----.
+|  -__|  __|     |  _  |
+|_____|____|__|__|_____|4eva.com
+</a>
+</pre>
+    <ul>
+        {{range .Site.Menus.main }}
+        <li>
+            <a href="{{ .URL }}">{{ .Name }}</a>
+        </li>
+        {{ end }}
+    </ul>
+    <div class="dashed-line"></div>
+</nav>

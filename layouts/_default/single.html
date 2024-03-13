@@ -1,0 +1,16 @@
+{{ define "main" }}
+
+<h2 class="blog-single-header" id="wrap">{{ .Title }}</h2>
+<p class="blog-single-date">{{ .Date | time.Format ":date_medium" }}</p>
+<span id="small">
+    {{ with .GetTerms "tags" }}
+        {{ range . }}
+            <a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a>
+        {{ end }}
+    {{ end }}
+</span>
+<br><br>
+{{ .Content }}
+
+
+{{ end }}

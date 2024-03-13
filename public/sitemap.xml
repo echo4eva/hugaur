@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>http://localhost:1313/blog/</loc>
+    <lastmod>2024-03-05T12:00:56-07:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/irl/</loc>
+    <lastmod>2024-03-05T12:00:56-07:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/</loc>
+    <lastmod>2024-03-05T12:00:56-07:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/</loc>
+    <lastmod>2024-03-05T12:00:56-07:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/the-hiatus/</loc>
+    <lastmod>2024-03-05T12:00:56-07:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/ml/</loc>
+    <lastmod>2023-12-26T12:00:56-07:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/nlp-and-lms/</loc>
+    <lastmod>2023-12-26T12:00:56-07:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/tech/</loc>
+    <lastmod>2023-12-26T12:00:56-07:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/first-epoch/</loc>
+    <lastmod>2023-12-13T12:00:56-07:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/hello_world/</loc>
+    <lastmod>2023-12-07T12:00:56-07:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/portfolio/</loc>
+  </url>
+</urlset>

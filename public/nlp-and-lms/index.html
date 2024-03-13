@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+    <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif:wdth,wght@100,300&display=swap" rel="stylesheet">
+    <title>nlp and lms</title>
+</head>
+    <body>
+        <nav>
+<pre>
+<a href = "/">
+            __          
+.-----.----|  |--.-----.
+|  -__|  __|     |  _  |
+|_____|____|__|__|_____|4eva.com
+</a>
+</pre>
+    <ul>
+        
+        <li>
+            <a href="/blog/">blog</a>
+        </li>
+        
+        <li>
+            <a href="/portfolio/">portfolio</a>
+        </li>
+        
+    </ul>
+    <div class="dashed-line"></div>
+</nav>
+        
+
+<h2 class="blog-single-header" id="wrap">nlp and lms</h2>
+<p class="blog-single-date">Dec 26, 2023</p>
+<span id="small">
+    
+        
+            <a href="/tags/tech/">Tech</a>
+        
+            <a href="/tags/ml/">Ml</a>
+        
+    
+</span>
+<br><br>
+<h1 id="talking-metal-box">talking metal box</h1>
+<p>How could a computer even talk to us? How is it possible it can answer any question you give it (with questionable correctness)? Here’s a better question, how could a computer understand language, especially english? It’s <em>very</em> simple, natural language processing, thanks for reading. Seriously, it’s really simple.</p>
+<h2 id="what-is-natural-language-processing">what is natural language processing?</h2>
+<p>Natural language processing, NLP for short, is how a computer can understand language. It’s a process that has a number of steps and components in order for it to work. It’s actually very similar to how we learn and translate other languages into ones we understand. For example in translating, if we want to understand what a sentence in Mandarin says in English, we would take the Mandarin sentence, put it in a translator, then we get it back in English. For machines, it’s the same thing but with more nerdy stuff in the “translating” part.</p>
+<p><img
+    src="/b2_1.png" alt="Untitled"
+    
+     style="width: 100%; max-width: a;"
+    /></p>
+<h2 id="how-do-machines-translateunderstand-us">how do machines translate/understand us?</h2>
+<p>Machines have their own language, numbers, that’s the only way we can talk to them at a level they understand. Computers are really stupid, they don’t know how to translate for themselves, so we translate our human sentences in numbers for them. We gave computers two tools to successfully understand our human sentences, tokenization and numericalization. This blog will touch on these tools in more depth.</p>
+<p><img
+    src="/b2_2.png" alt="Untitled"
+    
+     style="width: 100%; max-width: a;"
+    /></p>
+<h2 id="what-is-tokenization">what is tokenization?</h2>
+<p>Tokenization is splitting a sentence into words, bite size pieces. Computers, like us, can’t eat a cookie whole, we like to to eat it piece by piece. Just like eating a cookie, there are many ways to tokenize, biting off pieces or tearing off pieces. There’s no right way to enjoy a cookie, same with tokenization.</p>
+<p>There’s 3 main ways to tokenize, splitting a sentence by words, sub-words, or characters. Choosing a way to tokenize is up to the user. For example, tokenizing by word works well in English, but for Mandarin where sentences can be continuous words, it might not work.</p>
+<p><img
+    src="/b2_3.png" alt="Untitled"
+    
+     style="width: 100%; max-width: a;"
+    /></p>
+<h2 id="what-is-numericalization">what is numericalization?</h2>
+<p>Numericalization is the process of turning the token, the word we split through tokenization, into a number. The value of the number is something that the computer understands, it’s in its <em>vocab</em>. It’s just like how we understand words and what they mean (somehow, our brains are cool). The most similar to this is a dictionary, where we have a word and the definition of the word. For computers, it’s token and the value of the token.</p>
+<p><img
+    src="/b2_4.png" alt="Untitled"
+    
+     style="width: 100%; max-width: a;"
+    /></p>
+<p>Now that you know the tools, we can get into more detail on how a piece of metal can understand human language.</p>
+<h1 id="inside-the-metal-box">inside the metal box</h1>
+<p>There are components that we’re missing to make a machine understand us. We’re missing a recurrent neural network and an embedding matrix. New words, scary, but don’t worry, these are basically the deepest layers of a translator that actually do all the work of translating and understanding.</p>
+<h2 id="what-is-a-recurrent-neural-network">what is a recurrent neural network?</h2>
+<p>Recurrent neural network, RNN, is type of neural network that takes in data sequentially. Because of this, the previous inputs affect the current inputs and their output. So for example, when given this incomplete sentence “Listen to your,” the RNN could think of many words to finish the sentence. Depending on the previous input, all the words in the incomplete sentence, the RNN would say “heart” or “mom” depending on if it’s a Bladee fan or a loving son (which can be both cases, me). In other words, it would finish the sentence depending on its <em>embedding matrix.</em></p>
+<p><img
+    src="/b2_5.png" alt="Untitled"
+    
+     style="width: 100%; max-width: a;"
+    /></p>
+<h2 id="what-is-an-embedding-matrix">what is an embedding matrix?</h2>
+<p>I honestly don’t know, but they’re really cool. The way that I see it, it’s a dictionary for the neural network. Just like how “love” has different meanings to us as individuals, the embedding matrix helps the neural network determine how the word “love” is used in a sentence and what it means in that sentence.</p>
+<p>In my own technical perspective, they’re basically weights for individual words, kind of like how we use weights along with the input in ML tasks to help determine the output. Look at it like this, in the case that there is 100 words, each word would have a weight/relationship to all the other 99 words. These weights would help determine context of a sentence and meaning of a sentence.</p>
+<p>To push it further using the “love has different meanings” example, let’s see how an embedding matrix might work. Let’s get a sad cat that just got broken up with, they might associate “love” with “pain.”</p>
+<p><img
+    src="/b2_6.png" alt="Untitled"
+    
+     style="width: 100%; max-width: a;"
+    /></p>
+<p>Where a happy cat that’s been in a loving relationship for 10 years, had ups and downs, but ultimately communicates well emotionally with their partner no matter what situation, might associate “love” with “happiness.”</p>
+<p><img
+    src="/b2_7.png" alt="Untitled"
+    
+     style="width: 100%; max-width: a;"
+    /></p>
+<h1 id="the-cute-bow-on-the-metal-box">the cute bow on the metal box</h1>
+<p>Okay, now going through how to talk to a talking metal box and what’s inside the metal box, we can now wrap this metal box and finish it with a cute bow. We’ll be going through what language models are and how some might be made.</p>
+<h2 id="what-are-language-models">what are language models?</h2>
+<p>Language models are models that predict the next word of a given sentence, they basically have use of RNNs. There are more uses of LMs with fine tuning such as ChatGPT and DALLE.</p>
+<h2 id="how-are-language-models-made">how are language models made?</h2>
+<p>Language model’s main purpose is to understand a language right? So they’re made by reading documents of that specific language. Some language model take in all of Wikipedia to learn English! But how do they actually learn? Self supervised learning.</p>
+<p>Usually in ML, in order for a machine to learn, it needs labels to say, “oh I got this wrong, thanks to this label, I will know what other similar things that look like this are called,” in an example when trying to identify if a picture contains a cat or dog. When it comes to NLP, the inputs contain the label.</p>
+<p>In self supervised learning, the machine takes the untouched input and makes it it’s label, while it cuts off the last words of the input for its input. It’s so it can predict future words based on past words. This is where the embedding matrix, vocab, and next word predictions/output come in.</p>
+<p><img
+    src="/b2_8.png" alt="Untitled"
+    
+     style="width: 100%; max-width: a;"
+    /></p>
+<h1 id="my-gift-to-you-conclusion">my gift to you (conclusion)</h1>
+<p>We wrapped this metal box to give it to you to in the end. Now you know everything about NLP and LMs, kinda! I wrote this to review what I’ve learned on Christmas week, I wrote this one day after Christmas and the way I was writing the headers got me thinking about Christmas, so why not make the conclusion cheesy!</p>
+<p><img
+    src="/b2_9.png" alt="Untitled"
+    
+     style="width: 100%; max-width: a;"
+    /></p>
+<h2 id="what-will-i-do-take-way">what will i do? take way</h2>
+<p>Lesson 4 of <a href="https://course.fast.ai/Lessons/lesson4.html">course.fast.ai</a> opened my eyes. It’s easier than I expected to make a machine talk, I thought you would need a LLM with tons of data and math before I got into this course and lesson. I plan to research on fine tuning a small LM to answer questions based on documents I’ll give it. I feel like that would be a good way to practice what I’ve learned and to see my goal come to fruition which is mentioned in my <a href="https://blog4eva.vercel.app/first-epoch">previous blog</a>.</p>
+<p>I’m so excited to work with LMs!</p>
+
+
+
+
+        <footer>
+    <span id="smol">made with/check out <a href="https://gohugo.io/" target="_blank">hugo!</a> - jericho 2024</span>
+</footer>
+    </body>    
+</html>

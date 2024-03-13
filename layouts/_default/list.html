@@ -1,0 +1,24 @@
+{{ define "main" }}
+
+<h3>{{ .Title }}</h3>
+
+<div class="subheader">
+    <p id="smol">tags:<p>
+    <span class="blog-tags-labels">
+    {{ $t := $.Site.GetPage "taxonomyTerm" "tags" }}
+    {{ range $t.Data.Terms.Alphabetical}}
+        <a id="small" href="{{ .Page.Permalink }}">{{.Term}}</a>
+    {{ end }}
+    </span>
+</div>
+
+{{ range .Pages.ByPublishDate.Reverse }}
+<div class="blog-row">
+    <p id="smol">{{ .Date | time.Format ":date_medium" }}</p>
+    <a id="wrap" href="{{ .RelPermalink }}">{{ .Title }}</a>
+</div>
+
+{{ end }}
+
+
+{{ end }}
