@@ -3,7 +3,7 @@
     <head><script src="/hugaur/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=hugaur/livereload" data-no-instant defer></script>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <link rel="stylesheet" href="http://localhost:1313/hugaur//css/style.css">
+    <link rel="stylesheet" href="http://localhost:1313/hugaur//style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Noto+Serif:wdth,wght@100,300&display=swap" rel="stylesheet">
@@ -12,7 +12,7 @@
     <body>
         <nav>
 <pre>
-<a href = "/">
+<a href = "http://localhost:1313/hugaur/">
             __          
 .-----.----|  |--.-----.
 |  -__|  __|     |  _  |
@@ -22,11 +22,11 @@
     <ul>
         
         <li>
-            <a href="/hugaur/blog/">blog</a>
+            <a href="http://localhost:1313/hugaur/blog/">blog</a>
         </li>
         
         <li>
-            <a href="/hugaur/portfolio/">portfolio</a>
+            <a href="http://localhost:1313/hugaur/portfolio/">portfolio</a>
         </li>
         
     </ul>
@@ -39,9 +39,9 @@
 <span id="small">
     
         
-            <a href="/hugaur/tags/irl/">Irl</a>
+            <a href="http://localhost:1313/hugaur/tags/irl/">Irl</a>
         
-            <a href="/hugaur/tags/tech/">Tech</a>
+            <a href="http://localhost:1313/hugaur/tags/tech/">Tech</a>
         
     
 </span>
@@ -53,7 +53,7 @@
 <p>For my full stack internship, I remember one of my teammates wanted to create a machine learning application that creates a resume based on keywords (hold your horses). None of us knew anything about machine learning, and AI wasn’t a hot and global topic in the Summer of 2022 like it is today. Me, my other teammate, and our mentor all declined saying it’s out of our scope and continued with creating a full stack webapp. Honestly, it was out of scope since now I know a little bit more about this topic, what she wanted to do was create a generative AI that creates a resume based on keywords. Now looking back on it today, I really wish I was onboard with her to do it. I would’ve rather learn something exciting, new, and challenging and possibly fail due to time constraints, than to create a simple full stack webapp that many people have done before us.</p>
 <p>How did I get into learning about deep learning? <a href="https://twitter.com/echo4eva/status/1729342980723818799">After my latest project at this time</a>, I wanted to do something bigger and better. I wanted to create a website with a music visualizer as the background similar to milkdrop using three.js that’s connected to a winamp music player that you can control. This website would have a chat bot that would talk and act like my Cyberpunk Red table top role playing game character, nicknamed Chat. It was supposed to be a manifestation of a “what if this character I created was real” idea. For background, my character is basically a Vietnamese Austrailian girl who goes to raves and religiously listens S3RL and vlogs her actual physical self destroying end-game capitalism in the Cyberpunk world (very austrailian and y2k). I then prioritized on getting this chat bot to become a reality.</p>
 <p><img
-    src="/b1_1.png" alt="p1"
+    src="http://localhost:1313/hugaur/b1_1.png" alt="p1"
     
      style="width: 100%; max-width: a;"
     /></p>
@@ -69,7 +69,7 @@
 <p>First off we need weights, weights are super important in machine learning because they’re the main way for the computer to decide for itself. In this case, it helps the computer decide if the input image is a cat or not.</p>
 <p>Also, instead of saying “output,” we will reword it as a “prediction” since that’s what the computer outputs,  predicting if the input image is a cat or not.</p>
 <p><img
-    src="/b1_3.png" alt="p3"
+    src="http://localhost:1313/hugaur/b1_3.png" alt="p3"
     
      style="width: 100%; max-width: a;"
     /></p>
@@ -78,7 +78,7 @@
 <p>Loss is a measure that determines if a computer is performing good in its predictions. Numerically, the lower the loss the better.</p>
 <p>To explain the diagram, If we give the computer an image of a cat and it predicts it to be a dog somehow, we’ll say that the computer did a bad job and say “you silly goose, it was a cat!” That’s basically what loss does. Behind the scenes, the loss tells the computer how to better identify a cat, therefore updating the weights. Recall, the weights are main way a computer can decide for itself. The cycle continues.</p>
 <p><img
-    src="/b1_4.png" alt="p4"
+    src="http://localhost:1313/hugaur/b1_4.png" alt="p4"
     
      style="width: 100%; max-width: a;"
     /></p>
@@ -86,7 +86,7 @@
 <h2 id="what-ive-learned-lesson-3-technical">what i’ve learned (lesson 3, technical)</h2>
 <p>To be technical, this is how our diagram looks like now, we will be following it from start to finish. I honestly don’t know how to structure the main info, whether to add in math, code, or just the idea, so good luck.</p>
 <p><img
-    src="/b1_5.png" alt="p5"
+    src="http://localhost:1313/hugaur/b1_5.png" alt="p5"
     
      style="width: 100%; max-width: a;"
     /></p>
@@ -95,27 +95,27 @@
 <p>These weights are stored in a tensor. A tensor is literally the best data structure in the world, it just holds a collection of data, but can use GPU instead of CPU. Everything is stored in tensors.</p>
 <p>Parameters are basically variables that hold in values that are the weights.</p>
 <p><img
-    src="/b1_6.png" alt="p6"
+    src="http://localhost:1313/hugaur/b1_6.png" alt="p6"
     
      style="width: 100%; max-width: a;"
     /></p>
 <h3 id="predictions">predictions</h3>
 <p>What really is a prediction? Let’s do a 180 spin and plot a graph. This graph below literally represents a “cat.”</p>
 <p><img
-    src="/b1_7.png" alt="p7"
+    src="http://localhost:1313/hugaur/b1_7.png" alt="p7"
     
      style="width: 100%; max-width: a;"
     /></p>
 <p>It’s scuffed but these pink dots represent a computer predicting if an input image is a cat or not. The main idea is that the closer predictions are, it would structurally fit like the black dots that represent a “cat.” As we can see, the fit is pretty bad and all over the place, so the computer needs some training.</p>
 <p><img
-    src="/b1_8.png" alt="p8"
+    src="http://localhost:1313/hugaur/b1_8.png" alt="p8"
     
      style="width: 100%; max-width: a;"
     /></p>
 <p>To make it all make sense, we’re creating a mathmatical function that could allow us to match the black dots. Each pink dot is a parameter in the function, and the value of that parameter is called the weight!</p>
 <p>To make it not make sense, mathmatically this is calculated by doing matrix multipulcation! But don’t worry, we let a computer do all of this.</p>
 <p><img
-    src="/b1_9.png" alt="p9"
+    src="http://localhost:1313/hugaur/b1_9.png" alt="p9"
     
      style="width: 100%; max-width: a;"
     /></p>
@@ -123,7 +123,7 @@
 <p>How do we calculate loss? Loss can be calculated in different ways mathematically. In general it’s the difference of the “cat” represented in the graph, and the fit of the input image in the graph. The higher the loss, the worse the fit is.</p>
 <p>If the loss is high when using a dog as an image, it’s fine, nothing needs to be changed, it’s how it should be. But if the loss is high when using a cat image, we need to fix the model by changing its weights.</p>
 <p><img
-    src="/b1_10.png" alt="p10"
+    src="http://localhost:1313/hugaur/b1_10.png" alt="p10"
     
      style="width: 100%; max-width: a;"
     /></p>
@@ -131,14 +131,14 @@
 <h3 id="gradient">gradient</h3>
 <p>Gradients are what helps us with determining how to update the weights for our parameters. They’re calculated by taking the derivative of the function and solving for each parameter, high school math! It measures how the loss changes corresponding to the change of our parameter’s weight. We want low loss, so it’s best to do whatever the gradient says.</p>
 <p><img
-    src="/b1_11.png" alt="p11"
+    src="http://localhost:1313/hugaur/b1_11.png" alt="p11"
     
      style="width: 100%; max-width: a;"
     /></p>
 <h3 id="cycle">cycle</h3>
 <p>A step isn’t that important for this blog, it’s just the process of updating weights officially and doing some other things too. Each cycle/epoch the, the prediction will fit better and better in the graph. By the way, epoch is just a fancy way of saying “cycle.”</p>
 <p><img
-    src="/b1_12.png" alt="p12"
+    src="http://localhost:1313/hugaur/b1_12.png" alt="p12"
     
      style="width: 100%; max-width: a;"
     /></p>

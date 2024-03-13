@@ -3,7 +3,7 @@
     <head><script src="/hugaur/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=hugaur/livereload" data-no-instant defer></script>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <link rel="stylesheet" href="http://localhost:1313/hugaur//css/style.css">
+    <link rel="stylesheet" href="http://localhost:1313/hugaur//style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Noto+Serif:wdth,wght@100,300&display=swap" rel="stylesheet">
@@ -12,7 +12,7 @@
     <body>
         <nav>
 <pre>
-<a href = "/">
+<a href = "http://localhost:1313/hugaur/">
             __          
 .-----.----|  |--.-----.
 |  -__|  __|     |  _  |
@@ -22,11 +22,11 @@
     <ul>
         
         <li>
-            <a href="/hugaur/blog/">blog</a>
+            <a href="http://localhost:1313/hugaur/blog/">blog</a>
         </li>
         
         <li>
-            <a href="/hugaur/portfolio/">portfolio</a>
+            <a href="http://localhost:1313/hugaur/portfolio/">portfolio</a>
         </li>
         
     </ul>
@@ -39,9 +39,9 @@
 <span id="small">
     
         
-            <a href="/hugaur/tags/tech/">Tech</a>
+            <a href="http://localhost:1313/hugaur/tags/tech/">Tech</a>
         
-            <a href="/hugaur/tags/ml/">Ml</a>
+            <a href="http://localhost:1313/hugaur/tags/ml/">Ml</a>
         
     
 </span>
@@ -51,14 +51,14 @@
 <h2 id="what-is-natural-language-processing">what is natural language processing?</h2>
 <p>Natural language processing, NLP for short, is how a computer can understand language. It’s a process that has a number of steps and components in order for it to work. It’s actually very similar to how we learn and translate other languages into ones we understand. For example in translating, if we want to understand what a sentence in Mandarin says in English, we would take the Mandarin sentence, put it in a translator, then we get it back in English. For machines, it’s the same thing but with more nerdy stuff in the “translating” part.</p>
 <p><img
-    src="/b2_1.png" alt="Untitled"
+    src="http://localhost:1313/hugaur/b2_1.png" alt="Untitled"
     
      style="width: 100%; max-width: a;"
     /></p>
 <h2 id="how-do-machines-translateunderstand-us">how do machines translate/understand us?</h2>
 <p>Machines have their own language, numbers, that’s the only way we can talk to them at a level they understand. Computers are really stupid, they don’t know how to translate for themselves, so we translate our human sentences in numbers for them. We gave computers two tools to successfully understand our human sentences, tokenization and numericalization. This blog will touch on these tools in more depth.</p>
 <p><img
-    src="/b2_2.png" alt="Untitled"
+    src="http://localhost:1313/hugaur/b2_2.png" alt="Untitled"
     
      style="width: 100%; max-width: a;"
     /></p>
@@ -66,14 +66,14 @@
 <p>Tokenization is splitting a sentence into words, bite size pieces. Computers, like us, can’t eat a cookie whole, we like to to eat it piece by piece. Just like eating a cookie, there are many ways to tokenize, biting off pieces or tearing off pieces. There’s no right way to enjoy a cookie, same with tokenization.</p>
 <p>There’s 3 main ways to tokenize, splitting a sentence by words, sub-words, or characters. Choosing a way to tokenize is up to the user. For example, tokenizing by word works well in English, but for Mandarin where sentences can be continuous words, it might not work.</p>
 <p><img
-    src="/b2_3.png" alt="Untitled"
+    src="http://localhost:1313/hugaur/b2_3.png" alt="Untitled"
     
      style="width: 100%; max-width: a;"
     /></p>
 <h2 id="what-is-numericalization">what is numericalization?</h2>
 <p>Numericalization is the process of turning the token, the word we split through tokenization, into a number. The value of the number is something that the computer understands, it’s in its <em>vocab</em>. It’s just like how we understand words and what they mean (somehow, our brains are cool). The most similar to this is a dictionary, where we have a word and the definition of the word. For computers, it’s token and the value of the token.</p>
 <p><img
-    src="/b2_4.png" alt="Untitled"
+    src="http://localhost:1313/hugaur/b2_4.png" alt="Untitled"
     
      style="width: 100%; max-width: a;"
     /></p>
@@ -83,7 +83,7 @@
 <h2 id="what-is-a-recurrent-neural-network">what is a recurrent neural network?</h2>
 <p>Recurrent neural network, RNN, is type of neural network that takes in data sequentially. Because of this, the previous inputs affect the current inputs and their output. So for example, when given this incomplete sentence “Listen to your,” the RNN could think of many words to finish the sentence. Depending on the previous input, all the words in the incomplete sentence, the RNN would say “heart” or “mom” depending on if it’s a Bladee fan or a loving son (which can be both cases, me). In other words, it would finish the sentence depending on its <em>embedding matrix.</em></p>
 <p><img
-    src="/b2_5.png" alt="Untitled"
+    src="http://localhost:1313/hugaur/b2_5.png" alt="Untitled"
     
      style="width: 100%; max-width: a;"
     /></p>
@@ -92,13 +92,13 @@
 <p>In my own technical perspective, they’re basically weights for individual words, kind of like how we use weights along with the input in ML tasks to help determine the output. Look at it like this, in the case that there is 100 words, each word would have a weight/relationship to all the other 99 words. These weights would help determine context of a sentence and meaning of a sentence.</p>
 <p>To push it further using the “love has different meanings” example, let’s see how an embedding matrix might work. Let’s get a sad cat that just got broken up with, they might associate “love” with “pain.”</p>
 <p><img
-    src="/b2_6.png" alt="Untitled"
+    src="http://localhost:1313/hugaur/b2_6.png" alt="Untitled"
     
      style="width: 100%; max-width: a;"
     /></p>
 <p>Where a happy cat that’s been in a loving relationship for 10 years, had ups and downs, but ultimately communicates well emotionally with their partner no matter what situation, might associate “love” with “happiness.”</p>
 <p><img
-    src="/b2_7.png" alt="Untitled"
+    src="http://localhost:1313/hugaur/b2_7.png" alt="Untitled"
     
      style="width: 100%; max-width: a;"
     /></p>
@@ -111,14 +111,14 @@
 <p>Usually in ML, in order for a machine to learn, it needs labels to say, “oh I got this wrong, thanks to this label, I will know what other similar things that look like this are called,” in an example when trying to identify if a picture contains a cat or dog. When it comes to NLP, the inputs contain the label.</p>
 <p>In self supervised learning, the machine takes the untouched input and makes it it’s label, while it cuts off the last words of the input for its input. It’s so it can predict future words based on past words. This is where the embedding matrix, vocab, and next word predictions/output come in.</p>
 <p><img
-    src="/b2_8.png" alt="Untitled"
+    src="http://localhost:1313/hugaur/b2_8.png" alt="Untitled"
     
      style="width: 100%; max-width: a;"
     /></p>
 <h1 id="my-gift-to-you-conclusion">my gift to you (conclusion)</h1>
 <p>We wrapped this metal box to give it to you to in the end. Now you know everything about NLP and LMs, kinda! I wrote this to review what I’ve learned on Christmas week, I wrote this one day after Christmas and the way I was writing the headers got me thinking about Christmas, so why not make the conclusion cheesy!</p>
 <p><img
-    src="/b2_9.png" alt="Untitled"
+    src="http://localhost:1313/hugaur/b2_9.png" alt="Untitled"
     
      style="width: 100%; max-width: a;"
     /></p>

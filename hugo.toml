@@ -1,6 +1,7 @@
 baseURL = 'https://echo4eva.github.io/hugaur/'
 languageCode = 'en-us'
 title = 'echo4eva'
+canonifyURLs = true
 
 [permalinks]
     blog = '/:filename/'
