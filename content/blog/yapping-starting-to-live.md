@@ -1,7 +1,7 @@
 +++
-title = 'Yapping Starting to Live'
+title = 'yapping starting to live'
 date = 2024-03-15T15:12:15-07:00
-tags = [irl]
+tags = ['irl']
 draft = false
 +++
 
