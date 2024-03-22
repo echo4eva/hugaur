@@ -1,7 +1,7 @@
 +++
 title = 'nlp and lms'
 date = 2023-12-26T12:00:56-07:00
-tags = ['tech', 'ml']
+tags = ['tech']
 draft = false
 +++
 

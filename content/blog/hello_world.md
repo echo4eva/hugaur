@@ -1,7 +1,7 @@
 +++
 title = 'hello world!'
 date = 2023-12-07T12:00:56-07:00
-tags = ['irl', 'tech']
+tags = ['tech']
 draft = false
 +++
 

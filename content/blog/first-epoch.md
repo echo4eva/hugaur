@@ -1,7 +1,7 @@
 +++
 title = 'deep learning, first epoch'
 date = 2023-12-13T12:00:56-07:00
-tags = ['irl', 'tech']
+tags = ['tech']
 draft = false
 +++
 
