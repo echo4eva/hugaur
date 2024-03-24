@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tweet on echo4eva</title>
+    <link>http://localhost:1313/hugaur/tags/tweet/</link>
+    <description>Recent content in Tweet on echo4eva</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 24 Mar 2024 11:25:01 -0700</lastBuildDate>
+    <atom:link href="http://localhost:1313/hugaur/tags/tweet/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>caffeine voibes</title>
+      <link>http://localhost:1313/hugaur/caffeine-voibes/</link>
+      <pubDate>Sun, 24 Mar 2024 11:25:01 -0700</pubDate>
+      <guid>http://localhost:1313/hugaur/caffeine-voibes/</guid>
+      <description>i drink so much caffeine, i like to drink hot coffee, matcha, and especially viet ice coffee. i don’t like energy drinks as much, but they’re there. after switching the drinks around, i notice that different types of drinks i crave depend where i am in my life.&#xA;hot coffee hot coffee just gives me comfy vibes. i dont drink these as often anymore, but every time i do i’m probably playing an RPG or grinding an MMO on a winter morning with the windows open.</description>
+    </item>
+  </channel>
+</rss>

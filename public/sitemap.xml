@@ -3,18 +3,24 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>http://localhost:1313/hugaur/blog/</loc>
-    <lastmod>2024-03-21T21:54:02-07:00</lastmod>
+    <lastmod>2024-03-24T11:25:01-07:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/hugaur/caffeine-voibes/</loc>
+    <lastmod>2024-03-24T11:25:01-07:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/hugaur/</loc>
-    <lastmod>2024-03-21T21:54:02-07:00</lastmod>
+    <lastmod>2024-03-24T11:25:01-07:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/hugaur/tags/</loc>
+    <lastmod>2024-03-24T11:25:01-07:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/hugaur/tags/tweet/</loc>
+    <lastmod>2024-03-24T11:25:01-07:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/hugaur/tags/irl/</loc>
     <lastmod>2024-03-21T21:54:02-07:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/hugaur/le-peak/</loc>
-    <lastmod>2024-03-21T21:54:02-07:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/hugaur/tags/</loc>
     <lastmod>2024-03-21T21:54:02-07:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/hugaur/yapping-starting-to-live/</loc>
