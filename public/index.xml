@@ -4,10 +4,24 @@
     <title>echo4eva</title>
     <link>http://localhost:1313/hugaur/</link>
     <description>Recent content on echo4eva</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 24 Mar 2024 11:25:01 -0700</lastBuildDate>
+    <lastBuildDate>Wed, 12 Jun 2024 11:25:01 -0700</lastBuildDate>
     <atom:link href="http://localhost:1313/hugaur/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>my one pager</title>
+      <link>http://localhost:1313/hugaur/my-one-pager-1/</link>
+      <pubDate>Wed, 12 Jun 2024 11:25:01 -0700</pubDate>
+      <guid>http://localhost:1313/hugaur/my-one-pager-1/</guid>
+      <description>a one pager is about your life, who you are as a person and what your goals are, it&amp;rsquo;s a living document and an extension of yourself. knowing these 2 things and being true to them is what can make someone happy! after watching a ted talk from REDACTED about this and listening to them over Teams today, i wanted to try it out and make my first iteration including author notes (99% of the blog) and make it public!</description>
+    </item>
+    <item>
+      <title>insecurities</title>
+      <link>http://localhost:1313/hugaur/insecurities/</link>
+      <pubDate>Fri, 10 May 2024 11:25:01 -0700</pubDate>
+      <guid>http://localhost:1313/hugaur/insecurities/</guid>
+      <description>preface: i love documenting my life. i like to describe myself as a former shut-in that’s taking their first steps into the real world. i’ve had remote college for 3 years, my internships were only remote, and my side gigs were remote too. i basically been living online through my college years (which is a blog for another time, fuck covid). i haven’t dealt with real life personal problems until now, insecurities being one of them.</description>
+    </item>
     <item>
       <title>caffeine voibes</title>
       <link>http://localhost:1313/hugaur/caffeine-voibes/</link>
