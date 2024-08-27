@@ -1,6 +1,6 @@
 +++
 title = 'spawn die spawn die'
-date = 2024-07-27T11:25:01-07:00
+date = 2024-08-27T11:25:01-07:00
 tags = ['irl']
 draft = false
 +++
