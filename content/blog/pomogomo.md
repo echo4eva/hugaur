@@ -17,4 +17,4 @@ For UI inspiration, I really love using tools like lazygit and aider, they're ju
 
 For implementation inspiration, I used FocusPomo. It had all the features I loved such as time tracking, daily, weekly, monthly stats, and it also had a regular timer option, but it never tracked overtime which was a turn off from me. I'm a big fan of seeing time tracked on videogames from Steam, so I expected accurate tracking. Imagine if you were tapped in for 4 hours but it only counted for 1 hour? Geez!
 
-To wrap it up, I'm glad how this side project turned out, it's a tool that works and I actually use and refreshing my raw problem solving skills was fun. I finished reading "Learning Go" a while ago and picked up another book, so now it's time to apply what I'm learning from it in my next project! 
+To wrap it up, I'm glad how this side project turned out. It's a tool that works and one that I've been regularly using. Refreshing my raw problem solving skills was fun. I finished reading "Learning Go" a while ago and picked up another book, so now it's time to apply what I'm learning from it in my next project! 
