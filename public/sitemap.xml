@@ -3,18 +3,33 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>http://localhost:1313/hugaur/blog/</loc>
-    <lastmod>2024-06-12T11:25:01-07:00</lastmod>
+    <lastmod>2025-02-21T12:00:56-07:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/hugaur/</loc>
-    <lastmod>2024-06-12T11:25:01-07:00</lastmod>
+    <lastmod>2025-02-21T12:00:56-07:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/hugaur/tags/irl/</loc>
-    <lastmod>2024-06-12T11:25:01-07:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/hugaur/my-one-pager-1/</loc>
-    <lastmod>2024-06-12T11:25:01-07:00</lastmod>
+    <loc>http://localhost:1313/hugaur/pomogomo/</loc>
+    <lastmod>2025-02-21T12:00:56-07:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/hugaur/tags/</loc>
+    <lastmod>2025-02-21T12:00:56-07:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/hugaur/tags/tech/</loc>
+    <lastmod>2025-02-21T12:00:56-07:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/hugaur/east-coast-writings/</loc>
+    <lastmod>2025-01-09T12:00:56-07:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/hugaur/tags/irl/</loc>
+    <lastmod>2025-01-09T12:00:56-07:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/hugaur/spawn/</loc>
+    <lastmod>2024-07-27T11:25:01-07:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/hugaur/my-social-anxiety-story/</loc>
+    <lastmod>2024-07-22T11:25:01-07:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/hugaur/my-one-pager/</loc>
     <lastmod>2024-06-12T11:25:01-07:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/hugaur/insecurities/</loc>
@@ -36,9 +51,6 @@
     <lastmod>2024-03-05T12:00:56-07:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/hugaur/nlp-and-lms/</loc>
-    <lastmod>2023-12-26T12:00:56-07:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/hugaur/tags/tech/</loc>
     <lastmod>2023-12-26T12:00:56-07:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/hugaur/first-epoch/</loc>
